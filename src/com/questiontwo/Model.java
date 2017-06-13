@@ -15,7 +15,7 @@ public class Model {
 	}
 	
 	public String getfood(int num){
-		getfoodname = driver.findElement(By.xpath("(//[@class='ng-binding'])[position()="+num+"]"));
+		getfoodname = driver.findElement(By.xpath("(//[@class='title'])[position()="+num+"]"));
 		return getfoodname.getText();
 	}
 	
